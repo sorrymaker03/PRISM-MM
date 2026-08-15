@@ -236,7 +236,7 @@ def direction_score_barplot(ax: plt.Axes, fold: pd.DataFrame, panel: str) -> Non
     ax.set_title("Program-recovery score", loc="left", fontsize=10.4, fontweight="bold")
     ax.set_xlabel("Program-recovery score")
     ax.set_ylabel("")
-    ax.set_xlim(0.30, 0.62)
+    ax.set_xlim(0.0, 0.62)
     ax.grid(axis="x", color=PALETTE["grid"], lw=0.55, alpha=0.75)
     ax.tick_params(axis="both", labelsize=8.2)
     sns.despine(ax=ax)
